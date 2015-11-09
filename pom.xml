@@ -3,13 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>jmockit-eclipse-updatesite</artifactId>
-	<version>0.9.1</version>
 	<packaging>eclipse-repository</packaging>
 	
 	<parent>
 		<groupId>ajermakovics</groupId>
 		<artifactId>eclipse-jmockit-assist-master</artifactId>
-		<version>0.9.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<relativePath>./mavenMaster/pom.xml</relativePath>
 	</parent>
 </project>
