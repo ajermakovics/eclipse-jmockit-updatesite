@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ajermakovics</groupId>
   <artifactId>eclipse-jmockit-assist-master</artifactId>
-  <version>1.0.0</version>
+  <version>${global.version}</version>
   <packaging>pom</packaging>
   <name>Master project</name>
-  
+
   <modules>
   	<module>../../eclipse-jmockit-assist</module>
   	<module>../../eclipse-jmockit-feature</module>
@@ -14,14 +14,15 @@
   </modules>
   
   <properties>
-    <tycho.version>0.19.0</tycho.version>
-    <kepler-repo.url>http://download.eclipse.org/releases/indigo/</kepler-repo.url>
+     <global.version>1.0.1</global.version>
+    <tycho.version>0.24.0</tycho.version>
+    <p2-repo.url>http://download.eclipse.org/releases/mars/</p2-repo.url>
   </properties>
 
   <repositories>
     <repository>
-      <id>kepler</id>
-      <url>${kepler-repo.url}</url>
+      <id>p2-repo</id>
+      <url>${p2-repo.url}</url>
       <layout>p2</layout>
     </repository>
   </repositories>
